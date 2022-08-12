@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel ="stylesheet" href="style.css">
+        </head>
+    <body>       
+        <header>
+            <div class="advanced-Header">
+                <div id="logo">
+                    <img src="Google-Home-Symbol.png" alt="Google logo" width="328">
+                </div>
+                <a id="redirect" href="index.html">Google Search</a>
+            </div>                          
+        </header>       
+        <div id="advancedBody">  
+            <div id="advancedHeading">
+                <label>Advanced Search</label>
+            </div>         
+            <form action="https://www.google.com/search">
+                <div class="labelBox">
+                    <label id="subheading">Find pages with...</label>
+                </div>     
+                <br>            
+                <div class="firstBox">
+                    <label>all these words:</label>
+                    <input class="textField firstField" type="text" name="as_q">  
+                </div>
+                <br> 
+                <div class="firstBox">
+                    <label>this exact word or phrase:</label>
+                    <input class="textField secondField" type="text" name="as_epq"> 
+                </div>
+                <br> 
+                <div class="firstBox">
+                    <label>any of these words:</label>
+                    <input class="textField thirdField" type="text" name="as_oq"> 
+                </div>
+                <br> 
+                <div class="firstBox">
+                    <label>none of these words:</label>
+                    <input class="textField fourthField" type="text" name="as_eq"> 
+                </div>         
+                
+                <div class="advancedContainer">
+                    <input type="submit" class="advancedButton" value="Advanced Search">
+                </div>                  
+                             
+            </form>
+
+        </div>                
+    </body>
+</html>

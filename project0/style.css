@@ -1,0 +1,179 @@
+#main-Body {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    box-sizing: border-box;
+}
+
+#main-Body #inputField {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1.5px solid rgb(17, 17, 17);
+    position: relative;
+    top: -30px; 
+}
+
+#inputField > i {
+    font-size: 20px;
+    color: #777;
+}
+
+#inputField > input {
+    flex: 1;
+    height: 40px;
+    width: 515px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+
+#main-Body #inputField:hover {
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+}
+
+#inputField {
+    position: relative;
+    top: 7px;
+}
+
+#container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 560px;
+    height: 10px;
+    margin-top: -40px;
+}
+
+#container div {
+    align-items: center;
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.button {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.advanced-Header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#advancedHeading {  
+    border-bottom: solid #ebebeb 1px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 39px;
+}
+
+#advancedHeading label {
+    color: #d93025;
+    font-size: 20px;
+}
+
+.labelBox {
+    margin: 40px 0px 20px 40px;
+    font-size: 16px;
+    text-decoration: underline;
+    
+
+}
+
+.firstBox {
+    margin: 10px 0px 0px 40px;
+    font-size: 13px;
+    font-style: oblique;
+    
+}
+
+.textField.firstField {
+    margin-left: 70px;
+}
+
+.textField.secondField {
+    margin-left: 13px;
+}
+
+.textField.thirdField {
+    margin-left: 48px;
+}
+
+.textField.fourthField {
+    margin-left: 40px; 
+    
+}
+
+.textField {
+    height: 30px;
+    width: 500px;
+}
+
+
+#btn1, #btn2 {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #f8f9fa;
+}
+
+#btn1:hover, #btn2:hover {
+    box-shadow: 0 0 5px grey;
+    background-color: rgb(243, 240, 240);
+    border: 1px solid #d0d0d0;
+}
+a {
+    margin-left: 60px;
+    font-size: 20px;
+    color: black;
+}
+
+a.hover:hover {
+    text-decoration: overline;
+}
+
+.testing {
+    margin-left: 80px;
+}
+
+.advancedButton {
+    color: #fff;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    border-radius: 2px;
+    margin-top: 20px;
+    margin-left: -630px;
+    height: 30px;
+    min-width: 120px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+}
+
+.advancedContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
