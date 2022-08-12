@@ -1,1 +1,1 @@
-# Web-programming-with-python-and-js
+CS50's Web Programming with Python and JavaScript
